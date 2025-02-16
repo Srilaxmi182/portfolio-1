@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mittapelli Sri Laxmi</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Simple Styling -->
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+        color: #333;
+      }
+
+      /* Header */
+      header {
+        background-color: hsl(277, 85%, 66%);
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 3rem;
+      }
+
+      header p {
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+
+      /* Navigation Bar */
+      nav {
+        text-align: center;
+        background-color: #333;
+        padding: 10px 0;
+      }
+
+      .skill-badge {
+        font-size: 1.4rem;
+        margin: 10px;
+        padding: 15px 25px; /* Added padding for better size */
+        border-radius: 8px;
+      }
+
+      nav a {
+        color: white;
+        padding: 14px 25px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+      }
+
+      nav a:hover {
+        background-color: #03022c;
+        color: white;
+      }
+
+      /* Sections */
+      section {
+        padding: 60px 20px;
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+
+      section h2 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      /* Content Box Styling */
+      .content {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 30px;
+        background: linear-gradient(135deg, #45ebf4, #499eee);
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .content p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: white;
+        font-weight: 300;
+      }
+
+      .content ul {
+        font-size: 1.1rem;
+        text-align: left;
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 20px;
+      }
+
+      .content ul li {
+        padding: 8px 0;
+        color: white;
+      }
+
+      /* Skills Section Box Color */
+
+      /* Skills Section */
+#skills {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Skills Container */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Skill Badge */
+.skill-badge {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Java Badge */
+.bg-java {
+  background-color: #ff8c00;
+  color: white;
+}
+
+.bg-java:hover {
+  background-color: #e07b00;
+}
+
+/* HTML & CSS Badge */
+.bg-html {
+  background-color: #ff5733;
+  color: white;
+}
+
+.bg-html:hover {
+  background-color: #e14a29;
+}
+
+/* JavaScript Badge */
+.bg-js {
+  background-color: #f0db4f;
+  color: #333;
+}
+
+.bg-js:hover {
+  background-color: #e0c441;
+  color: #222;
+}
+
+/* React Badge */
+.bg-react {
+  background-color: #61dafb;
+  color: white;
+}
+
+.bg-react:hover {
+  background-color: #4fa3d1;
+}
+
+/* Node JS Badge */
+.bg-node {
+  background-color: #68a063;
+  color: white;
+}
+
+.bg-node:hover {
+  background-color: #5c8e57;
+}
+
+/* Git Badge */
+.bg-git {
+  background-color: #f1502f;
+  color: white;
+}
+
+.bg-git:hover {
+  background-color: #d14324;
+}
+
+.bg-Portfolio {
+  background-color: #20800b;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-badge {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+}
+
+
+       /* Skills 
+      Section */
+      .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+      .skill-badge {
+        font-size: 1.4rem;
+        margin: 10px;
+        padding: 15px 25px; /* Added padding for better size */
+        border-radius: 8px;
+      }
+    
+      #skills .content {
+        background: linear-gradient(135deg, #45ebf4, #499eee);
+      }
+
+      /* Projects Section Box Color */
+      #projects .content {
+        background: linear-gradient(135deg, #45ebf4, #499eee);
+      }
+
+      /* Contact Section Box Color */
+      #contact .content {
+        background: linear-gradient(135deg, #45ebf4, #499eee);
+      }
+
+      /* Social Icons */
+      .social-icons {
+        margin-top: 30px;
+        font-size: 1.5rem;
+      }
+
+      .social-icons a {
+        margin: 0 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .social-icons a:hover {
+        color: #4CAF50;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 1.1rem;
+      }
+
+      footer a {
+        color: #4CAF50;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      /* Media Queries for Responsiveness */
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2.5rem;
+        }
+
+        header p {
+          font-size: 1.3rem;
+        }
+
+        nav a {
+          font-size: 1rem;
+          padding: 10px 15px;
+        }
+
+        .content {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Header Section -->
+    <header>
+      <h1>Mittapelli Sri Laxmi</h1>
+      <p>Web Developer | Passionate About Creating Stunning Websites</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="content">
+        <p>Hello! I'm Mittapelli Sri Laxmi,<br>
+            Bsc in Computer and design | Passionate about building real-world software applications using the latest technologies and  web developer who loves building beautiful and user-friendly websites and applications. With experience in both front-end and back-end technologies, I am passionate about solving real-world problems with code and continuously improving my skill set.</p>
+            <span class="badge bg-primary">HTML</span>
+            <span class="badge bg-secondary">CSS</span>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+   
+    <section id="skills" class="container my-5">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="skills-container">
+          <span class="badge bg-java skill-badge"><i class="fab fa-java"></i> Java</span>
+          <span class="badge bg-html skill-badge"><i class="fab fa-html5"></i> HTML & CSS</span>
+          <span class="badge bg-js skill-badge"><i class="fab fa-js"></i> JavaScript</span>
+          <span class="badge bg-react skill-badge"><i class="fas fa-code"></i> React</span>
+          <span class="badge bg-node skill-badge"><i class="fab fa-node"></i> Node JS</span>
+          <span class="badge bg-git skill-badge"><i class="fab fa-git"></i> Git Control Version and GitHub</span>
+        </div>
+      </section>
+      
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="content">
+        
+
+            <p><span class="badge bg-react skill-badge">
+                <i class="fas fa-code"></i>
+                <span style="color: #0f0404;">Portfolio</span><br>A personal portfolio website showcasing my skills, projects, and contact information.</p>
+         
+    
+        <p><span class="badge bg-react skill-badge">
+            <i class="fas fa-code"></i>
+            <span style="color: #0f0404;">Web-Chat</span><br>A real-time web chat application allowing users to send, receive messages, and create groups.</p>
+      </div>
+
+      
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="content">
+        <p>If you'd like to collaborate, discuss a project, or just say hello, feel free to reach out!</p>
+        <div class="social-icons">
+          <a href="https://github.com/Srilaxmi182" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/srilaxmi-mittapelli-756576341/" target="_blank">LinkedIn</a>
+          <a href="mailto:mittapellisrilaxmi82@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Mittapelli Sri Laxmi | <a href="#contact">Contact Me</a></p>
+    </footer>
+
+  </body>
+</html>
